@@ -17,7 +17,7 @@ platformdirs==4.3.7
 pylint==3.3.6
 python-dotenv==1.1.0
 scikit-learn==1.6.1
-scipy==1.15.3
+scipy==1.13.1
 threadpoolctl==3.6.0
 tomlkit==0.13.2
 Werkzeug==3.1.3
