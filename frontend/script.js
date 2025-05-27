@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Send message to Flask backend
-            const response = await fetch('http://127.0.0.1:5000/chat', { // IMPORTANT: This URL must match your Flask app's address
+            const response = await fetch('https://sfa-chatbot.onrender.com/chat', { // IMPORTANT: This URL must match your Flask app's address
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
